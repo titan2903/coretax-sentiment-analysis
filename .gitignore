@@ -1,0 +1,46 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches and generated test/coverage files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter temporary files and checkpoints
+.ipynb_checkpoints/
+
+# Local secrets and environment configuration
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Scraped and processed datasets; regenerate locally from the data source
+data/raw/*.csv
+data/processed/*.csv
+
+# Generated analysis artifacts; source code and notebooks remain versioned
+outputs/figures/
+outputs/model/
+outputs/*.json
+outputs/*.csv
+report/*.pptx
