@@ -44,3 +44,4 @@ outputs/model/
 outputs/*.json
 outputs/*.csv
 report/*.pptx
+scripts/*
